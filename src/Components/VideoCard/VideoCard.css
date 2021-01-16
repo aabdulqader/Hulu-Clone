@@ -1,0 +1,69 @@
+.videoCard {
+  color: white;
+  max-width: 300px;
+  height: 290px;
+  padding: 5px;
+  cursor: pointer;
+  margin: 20px 10px;
+  transition: transform 0.1s ease-in;
+  -webkit-transition: transform 0.1s ease-in;
+  -moz-transition: transform 0.1s ease-in;
+  -ms-transition: transform 0.1s ease-in;
+  -o-transition: transform 0.1s ease-in;
+}
+.videoCard:hover {
+  transform: scale(1.09);
+  -webkit-transform: scale(1.09);
+  -moz-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  -o-transform: scale(1.09);
+}
+.videoCard > img {
+  max-height: 200px;
+  object-fit: contain;
+  max-width: 280px;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.videoCard > h2 {
+  margin-top: 5px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.videoCard > p {
+  font-size: 14.5px;
+}
+
+.videoCard__stars {
+  display: none;
+  position: relative;
+  margin-top: 5px;
+}
+.videoCard:hover > .videoCard__stars {
+  display: inherit;
+}
+
+.videoCard__likes {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: 10px;
+}
+.videoCard__likes > span {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.videoCard__category {
+  text-decoration: underline;
+  margin-right: 10px;
+}
+.videoCard__date {
+  font-size: 14px;
+}

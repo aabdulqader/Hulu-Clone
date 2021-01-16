@@ -1,0 +1,37 @@
+.nav {
+  color: white;
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px;
+}
+/* Hide scrollbar for Chrome, Safari, Opera */
+.nav::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.nav {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.nav > h2 {
+  cursor: pointer;
+  font-weight: 400;
+  margin: 0 30px;
+  font-size: 18px;
+  opacity: 0.6;
+  text-transform: capitalize;
+  transition: transform 0.1s ease-out;
+  -webkit-transition: transform 0.1s ease-out;
+  -moz-transition: transform 0.1s ease-out;
+  -ms-transition: transform 0.1s ease-out;
+  -o-transition: transform 0.1s ease-out;
+}
+
+.nav > h2:hover {
+  opacity: 1;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
