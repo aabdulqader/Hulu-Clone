@@ -32,6 +32,7 @@ const VideoCard = forwardRef(({ movie }, ref) => {
       </p>
     </div>
   );
-});
+}); 
 
 export default VideoCard;
+//h
